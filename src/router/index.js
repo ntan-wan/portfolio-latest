@@ -7,7 +7,7 @@ const routes = [
     name: 'home',
     component: () => import('@/views/HomePage.vue'),
     meta: {
-      layout: 'blank',
+      layout: 'main',
     },
   },
 ];
