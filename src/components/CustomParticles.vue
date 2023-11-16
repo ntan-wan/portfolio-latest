@@ -55,7 +55,7 @@ const particlesLoaded = async (container) => {
           },
 
           size: {
-            value: 1,
+            value: 2,
           },
         },
         detectRetina: true,

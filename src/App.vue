@@ -1,5 +1,4 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
 import { useSiteStore } from '@/stores/site.store.js';
 
 const siteStore = useSiteStore();

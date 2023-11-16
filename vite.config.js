@@ -7,6 +7,13 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "@/styles/primevue-sass-theme/themes/mytheme/_variables.scss";`,
+      },
+    },
+  },
   plugins: [vue()],
   resolve: {
     alias: [
